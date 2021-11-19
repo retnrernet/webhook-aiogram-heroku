@@ -1,12 +1,12 @@
 import os
 
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = "1023713845:AAGZ-hHJbPfx8phFn53udo1wYVCxSVfOFH8"
 if not BOT_TOKEN:
     print('You have forgot to set BOT_TOKEN')
     quit()
 
-HEROKU_APP_NAME = os.getenv('HEROKU_APP_NAME')
+HEROKU_APP_NAME = "petrjela"
 
 
 # webhook settings
